@@ -1,0 +1,35 @@
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 20px;
+}
+.khoi{
+    width: 23%;
+    height: 200px;
+    background-color: darkblue;
+    border: 2px solid red;
+    margin: 1%;
+    color: white;
+    font-size: 1.8em;
+}
+
+
+@media(max-width:767px)
+{
+    .main{
+        display:inline-block;
+        font-size: 14px;
+    }
+    .khoi{
+        width: 100%;
+        height: 200px;
+        background-color: darkblue;
+     
+    }
+}
+@media(max-width:480px){
+    .khoi{
+       background-color: brown;
+    }
+}
